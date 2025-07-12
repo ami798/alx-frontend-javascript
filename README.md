@@ -17,11 +17,29 @@ Each task is inside its own `task_x` folder, containing:
 - TypeScript source code under `js/`
 - Required configuration files (`tsconfig.json`, `webpack.config.js`, etc.)
 
-## How to Build
+---
 
-To compile and bundle the code for any task:
+## 📁 Directory Structure
+
+Each task is located in its respective subdirectory:
+
+- `task_3/` – Ambient Namespaces  
+- `task_4/` – Namespace & Declaration Merging  
+- `task_5/` – Nominal Typing & Branding  
+
+---
+
+## 🔧 Requirements
+
+To run the project tasks:
+
+1. Ensure Node.js and npm are installed.
+2. Navigate to a task directory (`task_3`, `task_4`, or `task_5`).
+3. Run:
 
 ```bash
-cd task_0
 npm install
 npm run build
+
+
+
