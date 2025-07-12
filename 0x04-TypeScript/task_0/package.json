@@ -1,0 +1,14 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && webpack"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0"
+  }
+}
